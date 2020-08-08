@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200308</FitNesseVersion>
+  <rootPath>CleanCoders.EpisodeOnePresentCodeCasts.PresentNoCodeCasts</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>4</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2020-03-30T23:08:22+05:30</date>
+    <runTimeInMillis>279</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="CleanCoders.EpisodeOnePresentCodeCasts.ScenarioLibrary"&gt;.CleanCoders.EpisodeOnePresentCodeCasts.ScenarioLibrary&lt;/a&gt; &lt;a href="CleanCoders.EpisodeOnePresentCodeCasts.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given no codecasts&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="2"&gt;clear codecasts&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;with user _ logged in&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;login user&lt;/td&gt;
+		&lt;td colspan="2"&gt;@user&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and with license for _ able to view _&lt;/td&gt;
+		&lt;td colspan="2"&gt;user,codecast&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;create license for&lt;/td&gt;
+		&lt;td&gt;@user&lt;/td&gt;
+		&lt;td&gt;viewing&lt;/td&gt;
+		&lt;td&gt;@codecast&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;then presentation user will be _&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;presentation user&lt;/td&gt;
+		&lt;td&gt;@user&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;there will be no codecasts presented&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;count of codecasts presented&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="CleanCoders.SetUp"&gt;.CleanCoders.SetUp&lt;/a&gt; &lt;a href="CleanCoders.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;cleancoderscom.fixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;library&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;codecast presentation&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle hidden"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="fail"&gt;given no codecasts&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="1"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given no codecasts&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="2"&gt;&lt;span class="fail"&gt;clear codecasts&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="fail"&gt;with user U logged in&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="1"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;with user _ logged in&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;login user&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;U&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="fail"&gt;then presentation user will be U&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="1"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;then presentation user will be _&lt;/td&gt;
+		&lt;td&gt;user&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;presentation user&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;TILT&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;U&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="fail"&gt;there will be no codecasts presented&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="1"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="2"&gt;there will be no codecasts presented&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;count of codecasts presented&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;-1&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;0&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;</content>
+    <relativePageName>PresentNoCodeCasts</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_5_0', instruction='import', path='cleancoderscom.fixtures'}</instruction>
+        <slimResult>pass(cleancoderscom.fixtures)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_5_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>cleancoderscom.fixtures</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='library_6_0', instruction='make', instanceName='library1', className='CodecastPresentation', args=[]}</instruction>
+        <slimResult>pass(codecast presentation)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>library_6_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>codecast presentation</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_7_0/scriptTable_0_0', instruction='call', instanceName='scriptTableActor', methodName='clearCodecasts', args=[]}</instruction>
+        <slimResult>fail()</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>scriptTable_7_0/scriptTable_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_7_1/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='loginUser', args=[U]}</instruction>
+        <slimResult>fail()</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>scriptTable_7_1/scriptTable_1_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_7_2/scriptTable_3_0', instruction='call', instanceName='scriptTableActor', methodName='presentationUser', args=[]}</instruction>
+        <slimResult>fail(a=TILT;e=U)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>scriptTable_7_2/scriptTable_3_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>TILT</actual>
+          <expected>U</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_7_3/scriptTable_4_0', instruction='call', instanceName='scriptTableActor', methodName='countOfCodecastsPresented', args=[]}</instruction>
+        <slimResult>fail(a=-1;e=0)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>scriptTable_7_3/scriptTable_4_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>-1</actual>
+          <expected>0</expected>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>C:\Softwares\JDK8\jdk1.8.0_111\bin\java -cp C:\Users\E080978\Desktop\Personal_Projects\IntelliJ\CleanCodeCaseStudy\fitnesse-standalone.jar;out/production fitnesse.slim.SlimService 1</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1159</totalRunTimeInMillis>
+</testResults>
+
